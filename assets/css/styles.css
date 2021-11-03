@@ -8,8 +8,9 @@ h1 {
     display: flex;
     justify-content: flex-start;
     padding-left:  30px;
-    padding-top: 25px;
+    padding-top: 40px;
     font-size: 36px;
+    color: #56382E;
 }
 
 /*Styling for Navbar*/
@@ -17,29 +18,32 @@ h1 {
 nav {
     display: flex;
     justify-content: flex-end;
-    
+    padding-bottom: 15px;
 }
 
 nav a {
-    padding: 15px;
-
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color:#8A624A;
+    border-bottom: solid #8A624A 8px;
 }
 /* This is a pseudo-class for links */
 a:hover {
-  
-   color:purple;
-   box-shadow: 0px 0px 20px 0px purple;
+   color:rgb(27, 2, 2);
+   box-shadow: 0px 0px 20px 0px rgb(51, 51, 43);
 
 }
-.div1 {
-    display: flex
-
+.header-img {
+    width: 100%;
+    height: 270px;
+    background-image: url("https://images.unsplash.com/photo-1621446682737-29aa323610cf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=778&q=80");
 }
 
 h2{
     display: flex;
-}
-
-main {
-
+    justify-content: center;
+    color: #56382E;
+   
 }
