@@ -7,13 +7,12 @@ body {
 h1 {
     display: flex;
     justify-content: flex-start;
-    padding-left:  30px;
-    padding-top: 40px;
-    padding-bottom:30px;
+    padding: 30px;
     font-size: 36px;
     color: #56382E;
     border: solid 5px #8A624A;
     border-radius: 15px;
+    background-image: url("https://images.unsplash.com/photo-1558066858-246fbbf9446f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2127&q=80");
 }
 
 /*Styling for Navbar*/
@@ -25,7 +24,7 @@ nav {
 }
 
 nav a {
-    padding: 20px;
+    padding: 15px;
     border-radius: 15px;
     font-size: 20px;
     text-decoration: none;
@@ -44,16 +43,16 @@ a:hover {
 .header-img { /*HALP unable to insert image stored on local machine*/
     position: relative;    
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-image: url("https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2069&q=80");
 }
 
-.h2{
+.h2{ /* attempting to move around h2 as a flex-box and align-items is not working */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(250, 246, 240);
-    font-size: 24px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    font-size: 30px;
 }
 aside {
     display: flex;
