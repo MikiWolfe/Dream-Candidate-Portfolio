@@ -1,7 +1,11 @@
+* {
+    margin:0
+}
+
 body {
     display: flex;
     flex-direction: column;
-    background-color: linen;
+    background-color: lightgray;
     font-family: helvetica, sans-serif;
     
 }
@@ -9,87 +13,39 @@ body {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: darkslategrey;
-    padding: 1%;
-    margin: 0;
+    background-color: rgb(29, 46, 46);
 }
 h1 {
-    font-size: 180%;
+    font-size: 36px;
+    background-color: rgb(164, 203, 204);
+    color: darkslategray;
+    padding-left: 60px;
 }
 
 nav ul {
     display: flex;
     min-width: 300px;
     justify-content: space-between;
-   
-}
-nav a {
-    text-decoration: none;
-}
-/*
-#header1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1%;
-  background-color: #13293d;
-  color: #fff;
-}
-
-h1 {
-    display: flex;
-    justify-content: flex-start;
-    padding: 30px;
-    font-size: 36px;
-    color: #56382E;
-   
+    list-style-type: none;
+    padding: 20px;
     }
 
-Styling for Navbar*/
-/*
-nav {
-    justify-self: flex-end; 
-    background-color: bisque;
-}
-
-nav a {
-    display:flex;
-    justify-content: space-between;
-    padding: 15px;
-    border-radius: 15px;
-    font-size: 20px;
+nav a { /*TODO : style with breaks between the links*/
     text-decoration: none;
-    color:#56382E;
-    border-bottom: solid #8A624A 8px;
+    color: rgb(164, 203, 204);
+    font-size: 20px;
+    border-bottom: rgb(164, 203, 204) solid 5px;
+    padding: 15px;
 }
- This is a pseudo-class for links 
+/* pseudo class for hover effect */
 a:hover {
-   color: #56382E;
-   box-shadow: 0px 0px 20px 0px rgb(51, 51, 43);
-   border-top: solid #8A624A 6px;
-   border-right: solid #8A624A 3px;
-   border-left:solid #8A624A 3px ;
-   
-}
-   */
-
-#h2 { 
-    width: 100%;
-    height: 300px;
-    background-image: url("C:/Users/mklaw/Desktop/Dream-Candidate-Portfolio/assets/images/CoffeeBeans.jpg");
-}
-.h2 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    color: white;
-    font-size: 30px;  
-    background-color: #56382E; 
+    color: rgb(29, 46, 46);
+    box-shadow: 0px 0px 20px 0px white;
+    border: solid rgb(164, 203, 204) 5px;
+    
+    background-color:rgb(164, 203, 204);
 }
 
-/* img:hover{
-    opacity: 1.0;
-} */
 
 aside {
     display: flex;
