@@ -22,23 +22,26 @@ h1 {
     color: darkslategray;
     padding-left: 60px;
 }
-
+.links {
+    text-decoration: none;
+}
 .nav-ul {
     display: flex;
     min-width: 300px;
     justify-content: space-between;
     list-style-type: none;
-    padding: 20px;
+    padding: 22px;
     }
 
-.nav-li { /*TODO : style with breaks between the links*/
-    text-decoration: none;
+.nav-li { 
+    padding: 15px;
     color: rgb(164, 203, 204);
     font-size: 20px;
     border-bottom: rgb(164, 203, 204) solid 5px;
     margin-right: 10px;
 }
 /* pseudo class for hover effect */
+
 .nav-li:hover {
     color: rgb(29, 46, 46);
     box-shadow: 0px 0px 20px 0px white;
@@ -56,42 +59,40 @@ img {
     width: 100%;
     height: 100%
 }
-/*
-.h2 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}*/
 
-.row{
-    display: flex;
-    flex-direction: row;
-}
+
 .header2 {
     position: absolute;
-    right: 50px;
-    bottom: 150px;
+    right: 60px;
+   top: 350px;
     color:rgb(29, 46, 46);
     background-color: rgb(164, 203, 204);
     padding: 10px;
 }
+/* styling for main body of element */
 
 .box {
     display: flex;
     flex-direction: column;
     
 }
-h3 {
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-header {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     font-size: 36px;
     color:rgb(29, 46, 46);
-    padding-left: 50px;
+    padding: 50px;
     border-right: rgb(29, 46, 46) solid 5px;
 
 }
 
 p {
     margin: 30px;
+    padding-right: 30px;
 }
