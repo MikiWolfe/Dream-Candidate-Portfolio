@@ -23,7 +23,7 @@ h1 {
     padding-left: 60px;
 }
 
-nav ul {
+.nav-ul {
     display: flex;
     min-width: 300px;
     justify-content: space-between;
@@ -31,36 +31,65 @@ nav ul {
     padding: 20px;
     }
 
-nav a { /*TODO : style with breaks between the links*/
+.nav-li { /*TODO : style with breaks between the links*/
     text-decoration: none;
     color: rgb(164, 203, 204);
     font-size: 20px;
     border-bottom: rgb(164, 203, 204) solid 5px;
-    padding: 15px;
+    margin-right: 10px;
 }
 /* pseudo class for hover effect */
-a:hover {
+.nav-li:hover {
     color: rgb(29, 46, 46);
     box-shadow: 0px 0px 20px 0px white;
     border: solid rgb(164, 203, 204) 5px;
     background-color:rgb(164, 203, 204);
 }
 /* styling for header text over image */
-.h2 img {
-    position: relative;
+.header-image{
     width: 100%;
     height: 300px;
 }
+
+img {
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+/*
 .h2 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    background-color: rgb(164, 203, 204);
-    color:rgb(29, 46, 46);
-    }
- 
+}*/
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
 .header2 {
     position: absolute;
+    right: 50px;
+    bottom: 150px;
+    color:rgb(29, 46, 46);
+    background-color: rgb(164, 203, 204);
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    
+}
+h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 36px;
+    color:rgb(29, 46, 46);
+    padding-left: 50px;
+    border-right: rgb(29, 46, 46) solid 5px;
+
 }
 
 p {
