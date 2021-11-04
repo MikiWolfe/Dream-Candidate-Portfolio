@@ -62,3 +62,7 @@ a:hover {
 .header2 {
     position: absolute;
 }
+
+p {
+    margin: 30px;
+}
