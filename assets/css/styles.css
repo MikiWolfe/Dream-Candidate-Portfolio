@@ -1,7 +1,39 @@
 body {
+    display: flex;
+    flex-direction: column;
     background-color: linen;
     font-family: helvetica, sans-serif;
     
+}
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: darkslategrey;
+    padding: 1%;
+    margin: 0;
+}
+h1 {
+    font-size: 180%;
+}
+
+nav ul {
+    display: flex;
+    min-width: 300px;
+    justify-content: space-between;
+   
+}
+nav a {
+    text-decoration: none;
+}
+/*
+#header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
 }
 
 h1 {
@@ -10,22 +42,19 @@ h1 {
     padding: 30px;
     font-size: 36px;
     color: #56382E;
-    border: solid 5px #8A624A;
-    border-radius: 20px;
+   
     }
 
-  
-
-/*Styling for Navbar*/
-
+Styling for Navbar*/
+/*
 nav {
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 15px;
+    justify-self: flex-end; 
     background-color: bisque;
 }
 
 nav a {
+    display:flex;
+    justify-content: space-between;
     padding: 15px;
     border-radius: 15px;
     font-size: 20px;
@@ -33,7 +62,7 @@ nav a {
     color:#56382E;
     border-bottom: solid #8A624A 8px;
 }
-/* This is a pseudo-class for links */
+ This is a pseudo-class for links 
 a:hover {
    color: #56382E;
    box-shadow: 0px 0px 20px 0px rgb(51, 51, 43);
@@ -42,18 +71,20 @@ a:hover {
    border-left:solid #8A624A 3px ;
    
 }
-   
+   */
 
-.h2 { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 30px;
-    position: relative;    
+#h2 { 
     width: 100%;
     height: 300px;
     background-image: url("C:/Users/mklaw/Desktop/Dream-Candidate-Portfolio/assets/images/CoffeeBeans.jpg");
+}
+.h2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    font-size: 30px;  
+    background-color: #56382E; 
 }
 
 /* img:hover{
@@ -73,12 +104,7 @@ aside {
 .h3 {
     color: #56382E;
     font-size: 35px;
-}
 
-.footer-img  {
-    width: 100%;
-    height: 150px;
-    background-image: url("https://images.unsplash.com/photo-1635799944379-7c20f383d352?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80");
 }
 
 footer {
