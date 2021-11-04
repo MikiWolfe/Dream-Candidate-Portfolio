@@ -47,15 +47,7 @@ a:hover {
 }
 
 
-aside {
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    width: 20%;
-    background-color: bisque;
-    padding-left: 25px;
-    border-right: solid #8A624A 8px;
-}
+
 
 .h3 {
     color: #56382E;
