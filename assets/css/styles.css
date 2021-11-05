@@ -31,7 +31,7 @@ h1 {
     min-width: 300px;
     justify-content: space-between;
     list-style-type: none;
-    padding: 22px;
+    padding: 20px;
     }
 
 .nav-li { 
@@ -68,7 +68,7 @@ img {
    top: 320px;
     color:rgb(29, 46, 46);
     background-color: rgb(164, 203, 204);
-    padding: 10px;
+    padding: 20px;
 }
 /* styling for main body of element */
 
@@ -82,51 +82,51 @@ img {
     flex-direction: row;
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
 .box-header {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     font-size: 36px;
     color:rgb(29, 46, 46);
-    padding: 50px;
+    padding: 60px;
     border-right: rgb(29, 46, 46) solid 5px;
     text-align: end;
     }
 
-p {
+.p {
     margin: 30px;
     padding-right: 30px;
 }
 
-.main img {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20%;
+#top {
+  height: 250px;
+  width: 1023px;
 }
-
-#laptop {
-    height: 250px;
-    width: 900px;
-    border: rgb(164, 203, 204) solid 3px ;
-}
-
-#row2 {
-    height: 200px;
-    width: 540px;
-    border: rgb(164, 203, 204) solid 3px ;
-}
-
-.matrix {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/*.html {
     
+    background-color:rgb(164, 203, 204);
+    color:rgb(29, 46, 46);
+    font-size: 24px;
+    padding: 25px;
+} */
+    
+.card {
+    display: flex;
+    display: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+.card img {
+    height: 220px;
+    width: 500px;
+    margin: 10px;
+    border: rgb(164, 203, 204) solid 3px ;
+    opacity: 0.3;
+}
+
+.card img:hover{
+    opacity: 1;
 }
