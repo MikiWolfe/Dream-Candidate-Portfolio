@@ -65,10 +65,10 @@ img {
 .header2 {
     position: absolute;
     right: 60px;
-   top: 320px;
+   top: 325px;
     color:rgb(29, 46, 46);
     background-color: rgb(164, 203, 204);
-    padding: 20px;
+    padding: 18px;
 }
 /* styling for main body of element */
 
@@ -84,6 +84,7 @@ img {
 
 .box-header {
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     font-size: 36px;
@@ -99,17 +100,11 @@ img {
 }
 
 #top {
+    position: relative;
   height: 250px;
   width: 1023px;
 }
-/*.html {
-    
-    background-color:rgb(164, 203, 204);
-    color:rgb(29, 46, 46);
-    font-size: 24px;
-    padding: 25px;
-} */
-    
+
 .card {
     display: flex;
     display: row;
@@ -120,6 +115,7 @@ img {
 }
 
 .card img {
+    position: relative;
     height: 220px;
     width: 500px;
     margin: 10px;
@@ -129,4 +125,54 @@ img {
 
 .card img:hover{
     opacity: 1;
+}
+
+
+.html {
+    position: absolute;
+    background-color:rgb(164, 203, 204);
+    color:rgb(29, 46, 46);
+    font-size: 24px;
+    padding: 20px;
+    left:300px;
+    top:820px;
+}  
+.matrix {
+    position: absolute;
+    background-color:rgb(164, 203, 204);
+    color:rgb(29, 46, 46);
+    font-size: 24px;
+    padding: 20px;
+    left:300px;
+    top:1065px;
+}  
+
+.python {
+    position: absolute;
+    background-color:rgb(164, 203, 204);
+    color:rgb(29, 46, 46);
+    font-size: 24px;
+    padding: 20px;
+    left:300px;
+    top:1312px;
+    }  
+ 
+.JS {
+    position: absolute;
+    background-color:rgb(164, 203, 204);
+    color:rgb(29, 46, 46);
+    font-size: 24px;
+    padding: 20px;
+    right:240px;
+    top:1065px;
+}    
+
+.Apps {
+    position: absolute;
+    background-color:rgb(164, 203, 204);
+    color:rgb(29, 46, 46);
+    font-size: 24px;
+    padding: 20px;
+    right:240px;
+    top:1310px;
 }
