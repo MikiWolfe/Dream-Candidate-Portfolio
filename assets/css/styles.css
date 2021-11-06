@@ -4,6 +4,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: lightgray;
     font-family: helvetica, sans-serif;
@@ -12,7 +13,7 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
     background-color: rgb(29, 46, 46);
     padding: 8px;
@@ -65,7 +66,7 @@ img {
 
 .header2 {
     position: absolute;
-    right: 60px;
+    right: 0%;
    top: 325px;
     color:rgb(29, 46, 46);
     background-color: rgb(164, 203, 204);
@@ -88,22 +89,25 @@ img {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-right: 100px;
     font-size: 36px;
     color:rgb(29, 46, 46);
+    width: 125px;
     padding: 60px;
     border-right: rgb(29, 46, 46) solid 5px;
     text-align: end;
     }
 
+
 .p {
     margin: 30px;
     padding-right: 30px;
 }
-
+/* Styling for images */
 #top {
   position: relative;
   height: 250px;
-  width: 1023px;
+  width: 988px;
 }
 
 .card {
@@ -111,6 +115,7 @@ img {
     display: row;
     align-items: flex-start;
     flex-wrap: wrap;
+    flex: 1;
     padding-right: 100px;
     padding-left: 50px;
 }
@@ -118,7 +123,7 @@ img {
 .card img {
     position: relative;
     height: 220px;
-    width: 500px;
+    width: 480px;
     margin: 10px;
     border: rgb(164, 203, 204) solid 3px ;
     opacity: 0.3;
@@ -128,15 +133,15 @@ img {
     opacity: 1;
 }
 
-
+/* text over images */
 .html {
     position: absolute;
     background-color:rgb(164, 203, 204);
     color:rgb(29, 46, 46);
     font-size: 24px;
     padding: 20px;
-    left:300px;
-    top:820px;
+    left:27%;
+    top:840px;
 }  
 .matrix {
     position: absolute;
@@ -144,8 +149,8 @@ img {
     color:rgb(29, 46, 46);
     font-size: 24px;
     padding: 20px;
-    left:300px;
-    top:1065px;
+    left:27%;
+    top:1085px;
 }  
 
 .python {
@@ -154,8 +159,8 @@ img {
     color:rgb(29, 46, 46);
     font-size: 24px;
     padding: 20px;
-    left:300px;
-    top:1312px;
+    left:27%;
+    top:1330px;
     }  
  
 .JS {
@@ -164,8 +169,8 @@ img {
     color:rgb(29, 46, 46);
     font-size: 24px;
     padding: 20px;
-    right:240px;
-    top:1065px;
+    right:29.5%;
+    top:1085px;
 }    
 
 .Apps {
@@ -174,22 +179,17 @@ img {
     color:rgb(29, 46, 46);
     font-size: 24px;
     padding: 20px;
-    right:240px;
-    top:1310px;
+    right:33.3%;
+    top:1330px;
 }
+/*Styling for contact info*/
+.me {  display: flex;
+    padding: 9%;
+     color: rgb(29, 46, 46);
+     font-size: 20px;
+      border-bottom: rgb(29, 46, 46) solid 5px;
+          list-style-type: none;
+     padding-top: 20%;
+     
+ }
 
-.me {
-   padding: 30px;
-    color: rgb(29, 46, 46);
-    font-size: 20px;
-    border-bottom: rgb(29, 46, 46) solid 5px;
-    list-style-type: none;
-    
-}
-.me-ul {
-    display: flex;
-    min-width: 300px;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-}
