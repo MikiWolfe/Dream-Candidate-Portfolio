@@ -19,7 +19,7 @@ body {
 
 /* header and nav bar */
 
-.header {
+.title {
     display: flex;
     flex:2;
     justify-content:space-between;
@@ -39,10 +39,6 @@ h1 {
 .links {
     text-decoration: none;
 }
-.bar {
-    display: flex;
-    list-style-type: none;
-    }
 
 a { 
     padding: 15px;
@@ -185,7 +181,7 @@ a:hover {
     flex: 2;
      
 }
-
+/* Media Queary */
 @media screen and (max-width: 576px) {
     body {
         flex-direction: column;
