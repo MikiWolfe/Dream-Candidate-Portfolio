@@ -72,7 +72,7 @@ a:hover {
 .ban {
     position: absolute;
     right: 0%;
-    top:30%;
+    top:32%;
     color: var(--dark);
     background-color: var(--light);
     padding: 1%;
@@ -87,24 +87,27 @@ a:hover {
 }
 
 .box-header {
-    font-size: 30px;   
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;   
     text-align: end;
-   margin-left: 3%;
-    border-right: var(--dark) 5px solid;
-    text-align: center;
+    flex-basis: 30px;
+    color: var(--dark);
+    padding: 3%;
+    border-right: var(--dark) solid 3px;
 }
 
-
 .text {
-    margin: 20px;
-    padding-right: 25px;
-    flex:3;
+    flex-wrap: wrap;
+    padding: 2%;
+    flex:4;
+    margin-left: 6%;
 }
 /* images for examples of work */
 
 #sel {
-    width: 1100px;
-    height: 250px;
+    width: 69rem;
+    height: 16rem;
     max-width:100%;
     }
 
@@ -113,7 +116,7 @@ a:hover {
     color:var(--dark);
     font-size: 24px;
     padding:1%;
-    margin-top: -3.2rem;
+    margin-top: -3.7rem;
     text-align: center;
     max-width:100%;
 }
@@ -128,14 +131,14 @@ a:hover {
   flex-wrap: wrap;
   flex-shrink: 3;
   align-items: stretch;
-  margin-left: 18px; 
+  margin-left: 8%; 
  }
 
   
 .card {
     flex-wrap: wrap;
     border:var(--light) solid 3px;
-    margin:12px;
+    margin: 0.75rem;
     max-width:100%
   }
 
@@ -150,7 +153,7 @@ a:hover {
     color:var(--light);
     font-size: 24px;
     padding:1%;
-    margin-top: -2.5rem;
+    margin-top: -3rem;
     margin-right:21.52rem;
 }
 /*  Hover effects for images*/   
@@ -174,8 +177,7 @@ a:hover {
     padding: 15px;
 }
 
-.me { 
-    
+.me {     
     color: var(--dark);
     font-size: 20px;
     border-bottom: var(--dark) solid 5px;
@@ -184,17 +186,8 @@ a:hover {
 
 
 /* Media Queary */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 320px) {
     body {
         flex-direction: column;
     }
 }
-
-
-
-
-
-
-
-
-
