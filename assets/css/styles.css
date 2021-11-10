@@ -1,6 +1,7 @@
  * {
     box-sizing: border-box;
-    margin:0
+    margin:0;
+    padding:0;
 } 
 /* Variables(Color) */
 :root {
@@ -9,8 +10,6 @@
 }
 
 body {
-    display: flex; 
-    flex-wrap: wrap;
     background-color: lightgray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     
@@ -19,15 +18,23 @@ body {
 /* header and nav bar */
 
 .title {
-    display: flex;
+    display:flex;
+    flex-direction: row;
     flex:2;
     justify-content:space-between;
     align-items: center;
     background-color: var(--dark);
     flex-wrap: wrap;
     padding:1%;
-
+    height: 15vh;
+    width: 100vw;
 }
+
+.bar {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 h1 {
     display: flex;
     font-size: 36px;
@@ -35,7 +42,8 @@ h1 {
     color: var(--dark);
     padding-left: 60px;
 }
-.links {
+
+#links {
     text-decoration: none;
 }
 
@@ -46,6 +54,7 @@ a {
     border-bottom: var(--light) solid 5px;
     margin-right: 15px;
 }
+/* Hover effect for nav bar */
 
 a:hover {
     color: var(--dark);
@@ -54,60 +63,96 @@ a:hover {
     background-color:var(--light);
 }
 
-/* banner text and image */
-
-.banner{
-    object-fit: contain;
-    width: 100%;
-    height: 275px;
+:target {
+  display: block;      
 }
 
-.bam-mer {
-    position: relative;
+/* banner text and image */
+
+.bannerWrapper {
+    display: flex;
+    margin: 0 auto;
     width: 100%;
-    height: 100%;
-    max-width:100%;
+    flex-wrap: wrap;
+
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    height: 275px;
+    align-self: flex-end;
+    object-fit: none;
+}
+
+.banner>img {
+    width: 100%;
+    flex-shrink: 2;
 }
 
 .ban {
-    position: absolute;
-    right: 0%;
-    top:32%;
+    flex-direction: row-reverse;
+    display: flex; 
+    height: 75px;
+    width: 100%;
+    margin-top: -120px;
+}
+
+.ban>h2{
     color: var(--dark);
     background-color: var(--light);
     padding: 1%;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 50px;
 }
 
 /* main text of element */
 
-
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
 .row {
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+   }
+.left {
+    display: flex;
+    width: 12%;
+    border-right: var(--dark) solid 3px;
+}
+
+.right{
+    display: flex;
+    width:74%;
     flex-direction: row;
 }
 
 .box-header {
-    display: flex;
-    flex-direction: column;
-    font-size: 40px;   
-    text-align: end;
-    flex-basis: 30px;
+    flex-shrink: 4;
+    font-size: 2.5rem;   
+    text-align: right;
+    /* flex-basis: 30px; */
     color: var(--dark);
-    padding: 3%;
-    border-right: var(--dark) solid 3px;
+    padding: 3% 10px; 
 }
 
 .text {
     flex-wrap: wrap;
     padding: 2%;
-    flex:4;
-    margin-left: 6%;
+    flex-shrink: 4;
+    margin-left: 4%;
 }
 /* images for examples of work */
 
 #sel {
-    width: 69rem;
-    height: 16rem;
+    width: 62rem;
+    height: 14rem;
     max-width:100%;
     }
 
@@ -130,8 +175,8 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   flex-shrink: 3;
-  align-items: stretch;
-  margin-left: 8%; 
+ /*align-items: stretch; */
+
  }
 
   
@@ -143,8 +188,8 @@ a:hover {
   }
 
 .card img {
-   width: 35rem;
-   height:16rem;
+   width: 30rem;
+   height:12rem;
    opacity: 0.1;
   }
 
@@ -181,9 +226,7 @@ a:hover {
     color: var(--dark);
     font-size: 20px;
     border-bottom: var(--dark) solid 5px;
-  
 }
-
 
 /* Media Queary */
 @media screen and (max-width: 320px) {

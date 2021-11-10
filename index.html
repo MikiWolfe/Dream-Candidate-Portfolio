@@ -1,112 +1,129 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mikayla's Portfolio</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-  
-<!--TODO Get border to cooperate -->
+
+  <!--TODO Get border to cooperate -->
 
   <!--Header and nav bar -->
 
-<body> 
- <div class="title">
-    <h1>Mikayla's Portfolio </h1> 
-    <nav class="bar">
-      <a class="links" href="#About-Me">About Me</a>
-      <a class="links" href="#Work">Work</a>
-      <a class="links" href="#Contact-Me">Contact Me</a>
-      <a class="links" href="#Resume">Resume</a>
-    </nav>
-  </div>
+  <body>
+    <div class="title">
+      <h1>Mikayla's Portfolio</h1>
+      <nav class="bar">
+        <a id="links" href="#About-Me">About Me</a>
+        <a id="links" href="#Work">Work</a>
+        <a id="links" href="#Contact-Me">Contact Me</a>
+        <a id="links" href="#Resume">Resume</a>
+      </nav>
+    </div>
 
-<!--Image with text fixed over it-->
+    <!--Image with text fixed over it-->
+    <div class="bannerWrapper">
+      <div class="banner">
+        <img src="assets/images/water.jpg" alt="image of waves" />
+      </div>
+      <div class="ban">
+        <h2>Getting to Know Me</h2>
+      </div>
+    </div>
+    <!--Main meat of website-->
 
-  <div class="banner">
-    <img class="bam-mer" src="assets/images/water.jpg" alt="image of waves" />
-  </div>
-  <div>
-    <h2 class="ban">Getting to Know Me</h2>
-  </div>
+    <!--About me-->
+    <main>
+      <div class="row">
+        <div class="left">
+          <h3 id="About-Me" id="about" class="box-header">About <br />Me</h3>
+        </div>
+        <div class="right">
+          <p class="text">
+            Pork chop laboris jerky mollit tongue incididunt, nulla exercitation
+            bacon sed meatloaf est sirloin fatback duis. Occaecat pork
+            incididunt consectetur cillum, short loin nisi in eiusmod sirloin
+            excepteur nostrud shank boudin. Frankfurter ribeye ea cillum. Ham
+            alcatra et spare ribs. Mollit ribeye corned beef, jerky lorem pork
+            et laboris. Exercitation picanha irure consequat proident buffalo
+            landjaeger non.
+          </p>
+          <p class="text">
+            Biltong tongue ea fatback, consequat est porchetta exercitation in
+            non hamburger m ollit cupidatat dolor shankle. Porchetta ribeye beef
+            pariatur pork loin. Sed incididunt elit pancetta t-bone irure
+            voluptate adipisicing laboris tenderloin tongue culpa deserunt.
+            Tri-tip in andouille ut id ball tip bresaola kevin nulla tenderloin.
+            Filet mignon mollit ground round cupim tri-tip dolor exercitation
+            pork belly pig swine ham. Anim pariatur laboris landjaeger shankle
+            dolore fugiat eiusmod deserunt shoulder id ex spare ribs. Quis
+            brisket ut, chicken ut dolor hamburger ham hock.
+          </p>
+        </div>
+      </div>
 
-<!--Main meat of website-->
+      <!--Examples of Work-->
 
- <!--About me-->
-  <main>
- <div class="row">
-  <h3 id="About-Me" id="about" class="box-header">About <br />Me</h3>
+      <div class="row">
+        <div class="left"><h3 id="Work" class="box-header">Work</h3></div>
+        <div class="right">
+        <div class="pictures">
+          <section class="card">
+            <img
+              id="sel"
+              src="assets/images/laptop.jpg"
+              alt="image of laptop"
+            />
+            <p class="ht">HTML</p>
+          </section>
 
-<div>
-  <p class="text">
-    Pork chop laboris jerky mollit tongue incididunt, nulla exercitation 
-    bacon sed meatloaf est sirloin fatback duis. Occaecat pork incididunt 
-    consectetur cillum, short loin nisi in eiusmod sirloin excepteur nostrud 
-    shank boudin. Frankfurter ribeye ea cillum. Ham alcatra et spare ribs. 
-    Mollit ribeye corned beef, jerky lorem pork et laboris. Exercitation 
-    picanha irure consequat proident buffalo landjaeger non.
-  </p>
-  <p class="text">
-    Biltong tongue ea fatback, consequat est porchetta exercitation in non hamburger m
-    ollit cupidatat dolor shankle. Porchetta ribeye beef pariatur pork loin.
-    Sed incididunt elit pancetta t-bone irure voluptate adipisicing laboris 
-    tenderloin tongue culpa deserunt. Tri-tip in andouille ut id ball tip 
-  bresaola kevin nulla tenderloin. Filet mignon mollit ground round 
-  cupim tri-tip dolor exercitation pork belly pig swine ham. Anim pariatur 
-  laboris landjaeger shankle dolore fugiat eiusmod deserunt shoulder id ex spare ribs. 
-  Quis brisket ut, chicken ut dolor hamburger ham hock.
-  </p>
-</div>
-</div>
+          <div class="break"></div>
 
-<!--Examples of Work-->
+          <section class="card">
+            <img src="assets/images/maxtrix.jpg" alt="image of matrix" />
+            <p class="foot">The Matrix</p>
+          </section>
 
-<div class="row">
-  <h4 id="Work" class="box-header">Work</h4> 
-  <div class="pictures">
- <section class="card">
-  <img id="sel" src="assets/images/laptop.jpg" alt="image of laptop"/>
-   <p class="ht">HTML</p>
-   </section>
-   
-  <div class="break"></div>
-  <section class="card"> 
-  <img src="assets/images/maxtrix.jpg" alt="image of matrix" />
-  <p class="foot">The Matrix</p>
-</section>
+          <section class="card">
+            <img src="assets/images/microchip.jpg" alt="image of microchip" />
+            <p class="foot">JavaScript</p>
+          </section>
 
- <section class="card">
-  <img src="assets/images/microchip.jpg" alt="image of microchip" />
-  <p class="foot">JavaScript</p>
-  </section> 
+          <section class="card">
+            <img
+              src="assets/images/cablemanagement.jpg"
+              alt="image of a bank of computer servers"
+            />
+            <p class="foot">Python</p>
+          </section>
 
-  <section class="card"> 
-    <img src="assets/images/cablemanagement.jpg" alt="image of a bank of computer servers" />
-    <p class="foot">Python</p>
-  </section>
+          <section class="card">
+            <img src="assets/images/iphones.jpg" alt="image of iPhones" />
+            <p class="foot">Apps</p>
+          </section>
+        </div>
+        </div>
+      </div>
 
-  <section class="card">
-    <img src="assets/images/iphones.jpg" alt="image of iPhones" />
-   <p class="foot">Apps</p>
-
-</section>
-</div>
-</div>
-
-<!--Contact Me-->
-<div class="row">
-
-<h5 id="Contact-Me" class="box-header">Contact <br />Me</h5>
-<div class="bottom"> 
-  <p class="me">555.555.5555</p>
-  <p class="me">yourname@PortfolioRUs.com</p>
-  <p class="me">GitHub</p>
-  <p class="me">Twitter</p>
-  <p class="me">Spotify</p>
-</div>
-</div>
-</main>
-</body>
+      <!--Contact Me-->
+      <div class="row">
+        <div class="left">
+          <h3 id="Contact-Me" class="box-header">Contact <br />Me</h3>
+        </div>
+        <div class="right">
+        <div class="bottom">
+          <p class="me">555.555.5555</p>
+          <p class="me">yourname@PortfolioRUs.com</p>
+          <p class="me">GitHub</p>
+          <p class="me">Twitter</p>
+          <p class="me">Spotify</p>
+        </div>
+        </div>
+        </div>
+        </main>
+      </div>
+    </main>
+  </body>
 </html>
