@@ -23,7 +23,7 @@ Comments are clearly defining sections of HTML and CSS code so others can follow
 One thing I really struggled with was keeping the website responsive when adding text over images.  I ended up putting footers on the bottom of the images because I was so unhappy with where the text would float off to when I changed my browser window or used chrome-developer to change the layout.    
 
 ### Screenshot of the finished portfolio:
-![altText](assets\images\ScreenShot.png)"Mikayla's Portfolio"
+![PortfolioPage](C:\Users\mklaw\Desktop\BootCampClassWork\Dream-Candidate-Portfolio\assets\images\ScreenShot.png)"Mikayla's Portfolio"
 
 ### Link to the deployed page 
 
