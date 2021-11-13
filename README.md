@@ -12,7 +12,7 @@ We are using flex-box as much as possible for the lay out for this project. Unli
 Comments are clearly defining sections of HTML and CSS code so others can follow the path of how the code was organized. 
 
 
-## Things I learned from this project:
+### Things I learned from this project:
 
     -Anything can be put a < div > but importaint to put things in semantic tags when appropriate. 
     -It's fine to start a project, realize that it's not doing the way you want it to and start over, but keep the base as a skeleton. 
@@ -22,8 +22,9 @@ Comments are clearly defining sections of HTML and CSS code so others can follow
 
 One thing I really struggled with was keeping the website responsive when adding text over images.  I ended up putting footers on the bottom of the images because I was so unhappy with where the text would float off to when I changed my browser window or used chrome-developer to change the layout.    
 
-## Screenshot of the finished portfolio:
-![PortfolioPage](Dream-Candidate-Portfolio\assets\images\Dream-Candidate-Portfolio.png)"Mikayla's Portfolio"
-## Link to the deployed page 
+### Screenshot of the finished portfolio:
+![altText](assets\images\ScreenShot.png)"Mikayla's Portfolio"
+
+### Link to the deployed page 
 
 
