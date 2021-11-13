@@ -1,3 +1,4 @@
+ /* Universal selector  */
  * {
     box-sizing: border-box;
     margin:0;
@@ -8,7 +9,7 @@
     --dark: rgb(29, 46, 46);
     --light:rgb(164, 203, 204);
 }
-
+/* Body */
 body {
     background-color: lightgray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
@@ -138,7 +139,6 @@ main {
     flex-shrink: 4;
     font-size: 2.5rem;   
     text-align:end;
-    /* flex-basis: 30px; */
     color: var(--dark);
     padding: 3% 10px; 
 }
@@ -211,8 +211,7 @@ main {
     opacity: 1;
 }
 
-/*Styling for contact info*/
-
+/*contact info*/
 
 .bottom {
     display: flex;
@@ -229,7 +228,7 @@ main {
     border-bottom: var(--dark) solid 5px;
 }
 
-/* Media Queary */
+/* Media Queary for website responsiveness */
 @media screen and (max-width: 320px) {
     body {
          flex-direction: column; 
