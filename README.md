@@ -24,7 +24,7 @@ One thing I really struggled with was keeping the website responsive when adding
 
 ## Screenshot of the finished portfolio:
 
-![Portfolio](assets\images\Dream-Candidate-Portfolio.png) "Mikayla's Portfolio"
+![Portfolio](C:\Users\mklaw\Desktop\BootCampClassWork\Dream-Candidate-Portfolio\assets\images\Dream-Candidate-Portfolio.png) "Mikayla's Portfolio"
 
 ## Link to the deployed page 
 
