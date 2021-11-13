@@ -27,4 +27,4 @@ One thing I really struggled with was keeping the website responsive when adding
 
 ### Link to the deployed page 
 
-
+https://mikiwolfe.github.io/Dream-Candidate-Portfolio/
