@@ -11,14 +11,21 @@ We are using flex-box as much as possible for the lay out for this project. Unli
 
 Comments are clearly defining sections of HTML and CSS code so others can follow the path of how the code was organized. 
 
-Things I learned from this project:
+
+## Things I learned from this project:
 
     -Anything can be put a < div > but importaint to put things in semantic tags when appropriate. 
     -It's fine to start a project, realize that it's not doing the way you want it to and start over, but keep the base as a skeleton. 
-    - How to put text tags onto images using CSS. 
+    -How to put text tags onto images using CSS. 
+    -How importaint it is to do Git pushes when working on a project, not just adds and commits.  
 
-One thing I really struggled with was keeping the website responsive when adding text over images.  For part of it, I ended up putting footers on the bottom of the images because I was so unhappy with where the text would float off to when I changed my browser window or used chrome-developer to change the layout.    
 
-# Screenshot of the finished portfolio:
+One thing I really struggled with was keeping the website responsive when adding text over images.  I ended up putting footers on the bottom of the images because I was so unhappy with where the text would float off to when I changed my browser window or used chrome-developer to change the layout.    
 
-// to be inserted once the project is completed //
+## Screenshot of the finished portfolio:
+
+![Portfolio](assets\images\Dream-Candidate-Portfolio.png) "Mikayla's Portfolio"
+
+## Link to the deployed page 
+
+
